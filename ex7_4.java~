@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class ex7_4{
+  public static void main(String[]args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter your message:");
+    String user = sn.nextLine();
+    System.out.print("The summamation of number is :"+sumNumber(user));
+  }
+  public static int sumNumber(String str){
+    return 0;
+  }
+}

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class ex7_2{
+  public static void main(String[]args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter your message:");
+    String user = sn.nextLine();
+    swap(user);
+  }
+  public static void swap(String user){
+    System.out.print("Your message is :"+);
+  }
+}
