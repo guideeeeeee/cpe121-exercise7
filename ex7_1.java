@@ -7,7 +7,7 @@ public class ex7_1{
     System.out.print("Your message is :"+textCheck(user));
   }
   public static boolean textCheck(String user){
-    if(user.charAt(1) == 'e' || user.charAt(3) == 'e')
+    if(user.charAt(1) == 'e')
       return true;
     else
       return false;
