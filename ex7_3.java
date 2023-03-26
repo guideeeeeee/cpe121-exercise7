@@ -8,12 +8,17 @@ public class ex7_3{
   }
   public static void UPPER(String user){
     System.out.print("Your message is :");
+    if(user.length()<3){
+        System.out.print(user.toUpperCase());
+    }
+    else{
     for(int i = 0; i<user.length()-3;i++){
       System.out.print(user.charAt(i)); 
     }
     for(int i = user.length()-3; i<user.length();i++){
       String user1 = user.toUpperCase();
       System.out.print(user1.charAt(i)); 
+    }
     }
   }
 }
